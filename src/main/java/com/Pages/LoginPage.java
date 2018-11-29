@@ -31,7 +31,7 @@ public class LoginPage {
 		@FindBy(name = "password")
 		public WebElement txtPassword;
 		
-		@FindBy(xpath = ".//button[@class='btn green pull-right']") 
+		@FindBy(xpath = ".//button[@class='btn green pull-right']")
 		public WebElement btnLogin;
 		
 		@FindBy(id="username-error")
